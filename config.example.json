@@ -1,0 +1,25 @@
+{
+    "username": "",
+    "password": "",
+    "portal": {
+        "host": "10.31.0.10",
+        "port": 801
+    },
+    "checkIntervalSec": 20,
+    "probeTimeoutSec": 4,
+    "onlineProbes": [
+        {
+            "url": "http://detectportal.firefox.com/success.txt",
+            "expect": "success"
+        },
+        {
+            "url": "http://www.msftconnecttest.com/connecttest.txt",
+            "expect": "Microsoft Connect Test"
+        },
+        {
+            "url": "http://captive.apple.com/hotspot-detect.html",
+            "expect": "Success"
+        }
+    ],
+    "maxLogKB": 256
+}
